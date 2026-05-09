@@ -65,7 +65,7 @@ export default function EmailMarketingCaseStudy() {
         <div className="bento-card card-dark span-3-cols" style={{ alignItems: 'flex-start' }}>
           <h3 style={{ borderBottomColor: 'var(--accent-lime)', color: 'var(--accent-lime)', alignSelf: 'flex-start' }}>🔥 THE CHALLENGE</h3>
           <p style={{ fontWeight: '500', fontSize: '1.05rem', lineHeight: '1.6' }}>
-            The email communications were measured primarily by opens and clicks, which made it hard to understand whether users were actually deriving product value, converting to paid plans, or returning after churn.
+            <strong>Vanity Metrics vs. Business Impact:</strong> Previous email communications relied heavily on surface metrics (opens/clicks), failing to track actual product adoption, paid conversions, or churn recovery. The challenge was to transform email from a communication tool into a <strong>measurable growth engine</strong>.
           </p>
         </div>
 
@@ -78,23 +78,56 @@ export default function EmailMarketingCaseStudy() {
         </div>
 
         {/* WHAT I CHANGED */}
-        <div className="bento-card span-3-cols deco-grid-bg" style={{ alignItems: 'flex-start' }}>
-          <h3 className="bg-white" style={{ borderBottomColor: '#111', color: '#111', alignSelf: 'flex-start' }}>👨🏼‍💻 WHAT I CHANGED</h3>
-          <ul style={{ fontWeight: '600', fontSize: '1.05rem', lineHeight: '1.6', paddingLeft: '20px' }}>
-            <li className="bg-white" style={{ marginBottom: '10px' }}>Shifted performance focus from surface engagement metrics to conversion-based outcomes like activation and paid upgrades.</li>
-            <li className="bg-white" style={{ marginBottom: '10px' }}>Optimized the onboarding flow through repeated testing of subject lines, copy, CTAs, timing, and logic.</li>
-            <li className="bg-white" style={{ marginBottom: '10px' }}>Designed and launched a dedicated churn/win-back flow to recover lost users.</li>
-            <li className="bg-white" style={{ marginBottom: '10px' }}>Managed trigger-based upgrade flow for merchants exceeding their plan limit to capture expansion opportunities.</li>
-          </ul>
-        </div>
-      </div>
+       <div className="bento-card span-3-cols" style={{ backgroundColor: '#F97316', color: '#000000' }}>
+  
+  <h3 className="font-black text-2xl uppercase mb-4" style={{ borderBottom: '4px solid #000000', paddingBottom: '10px' }}>
+    👩🏼‍💻 WHAT I CHANGED
+  </h3>
+
+  <ul className="list-disc space-y-4 text-base md:text-lg font-medium" style={{ marginLeft: '25px' }}>
+    
+    <li>
+      <strong>Strategic Pivot:</strong> Shifted performance focus from surface engagement metrics to bottom-line outcomes (activation, paid upgrades).
+    </li>
+
+    <li>
+      <strong>Onboarding Optimization:</strong> Continuously A/B tested subject lines, copy, CTAs, and flow logic to maximize trial adoption.
+    </li>
+
+    <li>
+      <strong>Churn Mitigation:</strong> Designed and launched a dedicated automated win-back flow to re-engage and recover lost users.
+    </li>
+
+    <li>
+      <strong>Expansion Revenue:</strong> Implemented trigger-based upgrade flows for merchants exceeding plan limits to capture immediate upsell opportunities.
+    </li>
+
+  </ul>
+</div>
 
       {/* MEASUREMENT & RESULTS */}
-      <h3 style={{ marginTop: '40px', marginBottom: '20px' }}>★ How I Measured Success & Results</h3>
-      <p style={{ fontWeight: '600', fontSize: '1.1rem', marginBottom: '30px' }}>I focused on activation, paid conversion, reconversion, and upgrade conversion, while using open and click rates as supporting indicators rather than the main definition of success.</p>
+      <div style={{ gridColumn: '1 / -1', width: '100%', margin: '2rem 0' }}>
+  <div style={{ display: 'flex', flexWrap: 'wrap', gap: '2rem', alignItems: 'flex-start' }}>
+    
+    {/* Cột trái: Tiêu đề */}
+    <div style={{ flex: '1 1 300px' }}>
+      <h3 className="font-black text-2xl uppercase m-0 inline-block" style={{ borderBottom: '4px solid #000', paddingBottom: '8px' }}>
+        ★ HOW I MEASURED SUCCESS & RESULTS
+      </h3>
+    </div>
+
+    {/* Cột phải: Đoạn văn */}
+    <div style={{ flex: '2 1 400px' }} className="text-base md:text-lg font-medium leading-relaxed">
+      <p style={{ margin: 0 }}>
+        I focused on activation, paid conversion, reconversion, and upgrade conversion, while using open and click rates as supporting indicators rather than the main definition of success.
+      </p>
+    </div>
+
+  </div>
+</div>
       
       {/* Lưới 2x2 cho 4 cục kết quả - ĐÃ FIX ẢNH HIỂN THỊ FULL 100% */}
-      <div className="bento-grid" style={{ gridTemplateColumns: 'repeat(2, 1fr)' }}>
+      <div className="bento-grid span-3-cols" style={{ gridTemplateColumns: 'repeat(2, 1fr)' }}>
         
         {/* RESULT 1: ACTIVATION */}
         <div className="bento-card" style={{ padding: 0, overflow: 'hidden', display: 'flex', flexDirection: 'column', background: 'var(--accent-pink)' }}>
@@ -146,7 +179,7 @@ export default function EmailMarketingCaseStudy() {
       <div className="bento-card span-3-cols card-yellow" style={{ alignItems: 'center', textAlign: 'center', padding: '50px 40px', marginTop: '40px', marginBottom: '20px' }}>
         <h3 style={{ borderBottomColor: '#111', color: '#111', fontSize: '2.5rem', marginBottom: '20px', alignSelf: 'center' }}>🌈 WHY IT MATTERED</h3>
         <p style={{ fontSize: '1.25rem', fontWeight: '800', color: '#111', maxWidth: '850px', margin: '0 auto', lineHeight: '1.6' }}>
-          These works helped turn lifecycle emails into a more conversion-focused growth channel, supporting activation, paid subscription growth, churn recovery, and expansion revenue.
+          By shifting the focus to product adoption and revenue metrics, I successfully transformed lifecycle emails into a primary growth channel. This strategic pivot directly supported user activation (<strong>+20.5%</strong>), accelerated paid subscription growth (<strong>+78% conversion lift</strong>), recovered lost accounts, and unlocked new expansion revenue.
         </p>
       </div>
 
@@ -160,7 +193,7 @@ export default function EmailMarketingCaseStudy() {
           <Link href="/contact" className="nav-btn" style={{ background: 'white', width: '220px' }}>GET IN TOUCH</Link>
         </div>
       </div>
-
+</div>
     </main>
   );
 }
