@@ -37,9 +37,18 @@ export default function Home() {
           
           <div className="bento-card span-2-cols card-dark">
             <h3 style={{ borderBottomColor: 'var(--accent-lime)', color: 'var(--accent-lime)' }}>My Focus</h3>
-            <p style={{ position: 'relative', zIndex: 1 }}>Over the past several years, I've built content engines, led SEO strategy, and optimized email campaigns across onboarding, win-back, and upgrade journeys. My strength is turning customer insights and funnel thinking into measurable business results.</p>
-          </div>
-
+<ul className="list-disc space-y-4" style={{ marginLeft: '25px' }}>
+  <li>
+    <strong>Acquisition & Organic Growth:</strong> Building scalable content engines and leading SEO strategies to consistently increase high-intent organic traffic and user acquisition.
+  </li>
+  <li>
+    <strong>Lifecycle & Retention Automation:</strong> Designing targeted, event-driven email flows across onboarding, upgrade, and win-back journeys to maximize trial-to-paid conversions.
+  </li>
+  <li>
+    <strong>Data-Driven Strategy:</strong> Translating user analytics and funnel insights into actionable marketing initiatives that deliver measurable business impact.
+  </li>
+</ul>
+</div> {/* <---- SẾP CHỈ CẦN THÊM ĐÚNG CÁI NÀY VÀO DÒNG 51 */}
           <div className="bento-card" style={{ padding: 0 }}>
             <img src="/cici-profile.jpeg" alt="CiCi" style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'grayscale(100%)' }} />
           </div>
@@ -58,8 +67,18 @@ export default function Home() {
 
           <div className="bento-card card-green deco-lines-inside">
             <h4 style={{ color: 'var(--accent-lime)', marginBottom: '10px', position: 'relative', zIndex: 1 }}>Tech Stack</h4>
-            <p style={{ fontSize: '0.95rem', position: 'relative', zIndex: 1 }}>Customer.io, ActiveCampaign, Google Analytics, Fullstory, Mixpanel, Posthog, HTML/CSS.</p>
-          </div>
+<ul className="list-disc space-y-2 text-base md:text-lg" style={{ marginLeft: '25px' }}>
+  <li>
+    <strong>Automation:</strong> Customer.io, ActiveCampaign.
+  </li>
+  <li>
+    <strong>Analytics:</strong> Mixpanel, Posthog, Fullstory, GA.
+  </li>
+  <li>
+    <strong>Development:</strong> HTML/CSS.
+  </li>
+</ul>          
+</div>
 
         </div>
       </div>
@@ -74,7 +93,7 @@ export default function Home() {
             <span style={{ color: 'var(--accent-blue)', fontWeight: '900' }}>Read Case Study →</span>
           </div>
           <h4 style={{ marginBottom: '10px', fontSize: '1.4rem' }}>Email Marketing Specialist @ Clearer.io</h4>
-          <p>Owned key lifecycle email flows for Boost AI Search & Discovery app. Managed onboarding, churn/win-back, and upgrade-triggered communications.</p>
+          <p>Managed end-to-end lifecycle email flows (onboarding, win-back, upgrades) for Boost AI Search & Discovery app, driving a +78% increase in trial-to-paid conversions.</p>
         </Link>
 
         <Link href="/seo-content-team-lead" style={{ textDecoration: 'none', color: 'inherit' }} className="bento-card span-3-cols">
@@ -83,7 +102,7 @@ export default function Home() {
             <span style={{ color: 'var(--accent-blue)', fontWeight: '900' }}>Read Case Study →</span>
           </div>
           <h4 style={{ marginBottom: '10px', fontSize: '1.4rem' }}>SEO Consultant & Content Lead @ MaNaDr</h4>
-          <p>Led SEO strategy for a B2C healthcare platform, managing a team of three. Grew monthly organic sessions from 159K to 469K (+195%).</p>
+          <p>Directed SEO strategy and managed a 3-person team for a B2C healthcare platform, scaling monthly organic sessions by +195% (from 159K to 469K).</p>
         </Link>
 
         <Link href="/content-marketing-specialist" style={{ textDecoration: 'none', color: 'inherit' }} className="bento-card span-3-cols">
@@ -92,7 +111,7 @@ export default function Home() {
             <span style={{ color: 'var(--accent-blue)', fontWeight: '900' }}>Read Case Study →</span>
           </div>
           <h4 style={{ marginBottom: '10px', fontSize: '1.4rem' }}>Content Specialist @ Boost Commerce</h4>
-          <p>Developed content across organic discovery, lead capture, and product education for Shopify merchants and SMB audiences.</p>
+          <p>Developed high-impact gated content and educational resources for Shopify merchants, driving lead acquisition including 347 cold leads from a single industry report.</p>
         </Link>
 
         <Link href="/marketing-academic-services" style={{ textDecoration: 'none', color: 'inherit' }} className="bento-card span-3-cols">
@@ -101,7 +120,7 @@ export default function Home() {
             <span style={{ color: 'var(--accent-blue)', fontWeight: '900' }}>Read Case Study →</span>
           </div>
           <h4 style={{ marginBottom: '10px', fontSize: '1.4rem' }}>Marketing & Academic Services @ IBEST JSC</h4>
-          <p>Supported course acquisition and student-facing operations for an English training center through campaign execution, digital content, paid media coordination.</p>
+          <p>Executed full-funnel marketing campaigns and managed digital content across a 125K+ follower network, driving a 20% increase in student enrollment.</p>
         </Link>
 
         <Link href="/content-marketing-internship" style={{ textDecoration: 'none', color: 'inherit' }} className="bento-card span-3-cols">
