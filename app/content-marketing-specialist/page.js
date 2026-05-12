@@ -24,10 +24,8 @@ export default function ContentMarketingSpecialist() {
         <h1 style={{ fontSize: '3.5rem' }}>Content Specialist @ Boost Commerce</h1>
         <h2 style={{ color: 'var(--accent-pink)', fontWeight: '900' }}>LIFECYCLE & GROWTH MARKETER</h2>
         <div style={{ background: 'white', border: '3px solid #111', padding: '30px', boxShadow: '8px 8px 0px #111', marginTop: '30px', width: '100%' }}>
-          <p style={{ fontWeight: '600', fontSize: '1.1rem', lineHeight: '1.6' }}>
-            In this role, I developed content for Boost Commerce across organic acquisition and product education, with a focus on Shopify merchants and SMB audiences. My work spanned SEO-oriented blog content, gated lead-capture assets, and feature-focused educational materials designed to strengthen discovery, build authority, and support consideration.
-            <br/><br/>
-            Likewise, I collaborated with internal teams to translate product features into content that was easier for prospects and users to understand, helping connect organic discovery with product education and lead capture.
+           <h3 className="bg-white" style={{ borderBottomColor: '#111', color: '#111', alignSelf: 'flex-start' }}>📝 MY ROLE & STRATEGY</h3>
+            <p style={{ fontWeight: '500', fontSize: '1.05rem', lineHeight: '1.6' }}>As a Content Specialist, I developed the organic acquisition and product education engine for Boost Commerce. Rather than producing isolated articles, I built a cohesive content journey—spanning SEO blogs, gated assets, and feature education—to seamlessly connect organic discovery with lead capture for Shopify merchants.
           </p>
         </div>
       </header>
@@ -47,10 +45,10 @@ export default function ContentMarketingSpecialist() {
         <div className="bento-card span-3-cols deco-grid-bg" style={{ alignItems: 'flex-start' }}>
           <h3 className="bg-white" style={{ borderBottomColor: '#111', color: '#111', alignSelf: 'flex-start' }}>📝 WHAT I CHANGED</h3>
           <ul style={{ fontWeight: '600', fontSize: '1.05rem', lineHeight: '1.6', paddingLeft: '20px' }}>
-            <li className="bg-white" style={{ marginBottom: '10px' }}>Shifted content execution toward a more intentional funnel role, using blog content for organic discovery and gated assets for lead capture and product education.</li>
-            <li className="bg-white" style={{ marginBottom: '10px' }}>Prioritized topics that aligned with merchant pain points and product-relevant search interest, making content more commercially useful rather than purely informational.</li>
-            <li className="bg-white" style={{ marginBottom: '10px' }}>Developed educational assets around core product capabilities to make complex features easier for prospects to evaluate and understand.</li>
-            <li className="bg-white" style={{ marginBottom: '10px' }}>Helped build a more cohesive content journey across awareness and consideration, linking thought leadership more closely to lead generation and product understanding.</li>
+            <li className="bg-white" style={{ marginBottom: '10px' }}><strong>Full-Funnel Strategy:</strong> Shifted content execution toward a more intentional funnel role, using blog content for organic discovery and gated assets for lead capture.</li>
+            <li className="bg-white" style={{ marginBottom: '10px' }}><strong>Commercial Alignment:</strong> Prioritized topics aligned with merchant pain points and search intent, making content commercially useful rather than purely informational.</li>
+            <li className="bg-white" style={{ marginBottom: '10px' }}><strong>Product-Led Education:</strong> Developed gated educational assets around core product capabilities, simplifying complex features for prospects to evaluate.</li>
+            <li className="bg-white" style={{ marginBottom: '10px' }}><strong>Journey Cohesion:</strong> Bridged the gap between awareness and consideration, linking top-of-funnel thought leadership directly to product understanding and lead generation.</li>
           </ul>
         </div>
       </div>
@@ -143,7 +141,7 @@ export default function ContentMarketingSpecialist() {
       <div className="bento-card span-3-cols card-yellow" style={{ alignItems: 'center', textAlign: 'center', padding: '50px 40px', marginTop: '50px', marginBottom: '20px' }}>
         <h3 style={{ borderBottomColor: '#111', color: '#111', fontSize: '2.5rem', marginBottom: '20px', alignSelf: 'center' }}>⭐️ WHY IT MATTERED</h3>
         <p style={{ fontSize: '1.25rem', fontWeight: '800', color: '#111', maxWidth: '850px', margin: '0 auto', lineHeight: '1.6' }}>
-          This work helped build a more structured content engine for Boost Commerce, in which content served different roles across the funnel rather than acting as isolated deliverables. Organic blog content improved discoverability and audience relevance, while gated educational assets supported lead capture and product understanding.
+          By transitioning content from isolated deliverables to a structured funnel, I established a predictable acquisition engine. This strategy not only improved organic discoverability but actively drove customer acquisition—highlighted by capturing 347 high-intent leads from a single industry report—proving content's direct impact on the bottom line.
         </p>
       </div>
 

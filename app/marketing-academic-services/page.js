@@ -44,23 +44,22 @@ export default function MarketingAcademicServices() {
         <div className="bento-card span-3-cols">
             <h3 style={{ color: '#111' }}>The Challenge & My Role</h3>
             <p><strong>The Context:</strong> It required marketing support across both acquisition and student-facing operations, meaning not only promoting courses but also helping convert enquiries and supporting retention.</p>
-            <p><strong>My Ownership:</strong> I supported execution across campaign planning, digital content, paid-media coordination, and inbound enquiry handling. I also worked closely with students, instructors, and parents on course consultation and progress communication.</p>
+            <p><strong>My Ownership:</strong>Executed multi-channel marketing campaigns spanning digital content, paid media, and inbound sales operations. I acted as the bridge between marketing generation and student conversion, directly influencing the center's enrollment targets.</p>
         </div>
 
         {/* Execution & Results */}
         <div className="bento-card span-2-cols">
             <h3 style={{ color: '#111' }}>Execution & Impact</h3>
             <ul style={{ paddingLeft: '20px', lineHeight: '1.8' }}>
-              <li>Managed content coordination across the website, YouTube, Instagram, and a Facebook page with <strong>125,000+ followers</strong>.</li>
-              <li>Supported paid-marketing execution across Google Ads, Facebook Ads, and Cốc Cốc.</li>
-              <li>Handled inbound online enquiries and supported course consultation to bridge marketing and student conversion.</li>
-              <li>Helped translate annual and monthly marketing plans into execution aligned with school-year objectives.</li>
+              <li><strong>Omnichannel Community Management:</strong> Coordinated digital content across the website and social platforms, effectively engaging a network of <strong>125,000+ followers</strong>.</li>
+              <li><strong>Paid Acquisition Execution:</strong> Managed and optimized digital ad deployments across Google Ads, Facebook Ads, and Cốc Cốc to drive inbound leads.</li>
+              <li><strong>Sales Enablement & Conversion:</strong> Handled inbound online enquiries and conducted direct course consultations, successfully bridging the gap between marketing efforts and actual student enrollment.</li>
             </ul>
         </div>
 
         <div className="bento-card card-green" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
             <h3 style={{ color: 'white' }}>Why It Mattered</h3>
-            <p style={{ color: '#ccc', fontSize: '0.9rem' }}>This role built my foundation in full-funnel education marketing, combining acquisition, conversion, and customer-facing communication.</p>
+            <p style={{ color: '#ccc', fontSize: '0.9rem' }}>This role proved my ability to operate across the entire marketing funnel. By aligning daily campaign execution with broader business objectives, I not only gained hands-on experience in acquisition and customer-facing communication but also directly contributed to a <strong>20% overall increase in student enrollment</strong>.</p>
         </div>
 
       </div>

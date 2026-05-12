@@ -67,10 +67,9 @@ export default function ContentInternship() {
         <div className="bento-card span-3-cols" style={{ alignItems: 'flex-start', background: 'white' }}>
           <h3 style={{ borderBottomColor: '#111', color: '#111', alignSelf: 'flex-start' }}>🎨 WHAT I CHANGED</h3>
           <ul style={{ fontWeight: '600', fontSize: '1.05rem', lineHeight: '1.6', paddingLeft: '20px' }}>
-            <li style={{ marginBottom: '10px' }}>Produced destination and travel-experience content designed to support the brand’s editorial presence in luxury Southeast Asia travel.</li>
-            <li style={{ marginBottom: '10px' }}>Maintained a steady publishing cadence across social platforms, helping support day-to-day brand visibility and audience engagement.</li>
-            <li style={{ marginBottom: '10px' }}>Wrote descriptive content for hotel listings and destination pages, presenting premium travel experiences in a way that was both persuasive and informative.</li>
-            <li style={{ marginBottom: '10px' }}>Built familiarity with niche audience research by translating differentiators in luxury travel into content themes and narrative angles.</li>
+            <li style={{ marginBottom: '10px' }}><strong>Editorial Production:</strong> Researched and authored high-quality destination content, ensuring strict alignment with the brand’s luxury positioning in Southeast Asia.</li>
+            <li style={{ marginBottom: '10px' }}><strong>Social Media Cadence:</strong> Managed a consistent, high-frequency publishing schedule (1-2 posts/day) across primary platforms to sustain brand visibility and audience engagement.</li>
+            <li style={{ marginBottom: '10px' }}><strong>Commercial Copywriting:</strong> Crafted persuasive, descriptive web copy for premium hotel listings and destination pages, translating luxury differentiators into compelling narratives.</li>
           </ul>
         </div>
       </div>
@@ -175,7 +174,7 @@ export default function ContentInternship() {
       <div className="bento-card span-3-cols card-yellow" style={{ alignItems: 'center', textAlign: 'center', padding: '50px 40px', marginTop: '20px', marginBottom: '50px' }}>
         <h3 style={{ borderBottomColor: '#111', color: '#111', fontSize: '2.5rem', marginBottom: '20px', alignSelf: 'center' }}>🌞 WHY IT MATTERED</h3>
         <p style={{ fontSize: '1.25rem', fontWeight: '800', color: '#111', maxWidth: '850px', margin: '0 auto', lineHeight: '1.6' }}>
-          The internship helped build my foundation in content marketing through a real business context: writing for a niche audience, adapting tone to a premium brand, and producing content across both editorial and promotional formats. It was an early step in learning how content supports visibility, positioning, and audience engagement when the product is experience-led rather than feature-lead.
+          By consistently delivering premium narratives tailored to a high-net-worth audience, I actively supported Exotic Voyages' positioning as a luxury authority. Successfully executing both editorial and promotional content in this experience-led market laid a rigorous, professional foundation for my subsequent career in full-funnel content marketing.
         </p>
       </div>
 

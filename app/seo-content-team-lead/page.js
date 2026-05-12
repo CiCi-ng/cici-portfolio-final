@@ -53,18 +53,16 @@ export default function SeoContentTeamLead() {
         {/* The Strategy Cards */}
         <div className="bento-card span-3-cols">
             <h3 style={{ color: '#111' }}>The Challenge & My Role</h3>
-            <p><strong>The Problem:</strong> MaNaDr needed a more structured approach to organic growth to improve search visibility and expand its reach through content. The task was not only to grow traffic but also to build a stronger SEO content system that could scale sustainably.</p>
-            <p><strong>My Ownership:</strong> I led SEO and content strategy for the business, managing a team of 3. My role covered both strategic direction and hands-on execution, including identifying growth opportunities, improving content quality, and making high-impact SEO refinements.</p>
+            <p><strong>The Problem:</strong> In a highly competitive B2C healthcare market, MaNaDr's organic growth lacked a scalable structure. The challenge was to transform a reactive content approach into a systematic, predictable SEO engine that could aggressively capture market share.</p>
+            <p><strong>My Ownership:</strong> Directed the end-to-end SEO and content strategy, managing a 3-person team to identify high-upside growth opportunities, enforce content quality, and execute high-impact technical and on-page refinements.</p>
         </div>
 
         <div className="bento-card span-3-cols card-dark">
             <h3 style={{ color: 'white' }}>What I Changed</h3>
             <ul style={{ paddingLeft: '20px', lineHeight: '1.8', color: '111' }}>
-              <li>Reoriented the content workflow around SEO opportunity sizing, search intent, and ranking feasibility to make planning more strategic and less reactive.</li>
-              <li>Prioritized topics based on demands, competitive landscape, and potential upside.</li>
-              <li>Treated existing content as a growth lever, using performance signals to decide where to refresh, strengthen, or reposition pages.</li>
-              <li>Improved execution quality by tightening content structure, search alignment, and optimization discipline across the team.</li>
-              <li>Built a more measurable operating rhythm for organic growth.</li>
+              <li><strong>Data-Driven Strategy:</strong> Reoriented the content workflow around SEO opportunity sizing, search intent, and ranking feasibility to shift from reactive publishing to strategic planning.</li>
+              <li><strong>Content Lifecycle Optimization:</strong> Treated existing content as a primary growth lever, auditing performance signals to strategically refresh, strengthen, or reposition legacy pages.</li>
+              <li><strong>Team Leadership & Operations:</strong> Elevated execution quality across a 3-person team by tightening optimization discipline, streamlining structures, and building a measurable operating rhythm for organic growth.</li>
             </ul>
         </div>
       </div>
@@ -84,7 +82,7 @@ export default function SeoContentTeamLead() {
             <p style={{ fontSize: '0.9rem', marginTop: '5px', color: '#e0e0e0' }}>Increased monthly organic sessions from 159K to 469K.</p>
         </div>
 
-        <div className="bento-card">
+        <div className="bento-card card-green">
             <div className="kpi-number">14.2</div>
             <p style={{ margin: 0, fontWeight: '700', color: '#111' }}>Average SERP Position</p>
             <p style={{ fontSize: '0.8rem', marginTop: '5px' }}>Improved from 18.7 (up 4.5 positions / 24% improvement).</p>
@@ -115,7 +113,7 @@ export default function SeoContentTeamLead() {
         {/* Final Conclusion Summary */}
         <div className="bento-card span-3-cols card-yellow" style={{ textAlign: 'center', padding: '50px 20px' }}>
             <h3 style={{ color: '111' }}>Why It Mattered</h3>
-            <p style={{ maxWidth: '800px', margin: '0 auto' }}>This work helped strengthen MaNaDr’s organic visibility and built a more scalable content operation. Rather than relying on one-off content wins, the strategy created a stronger foundation for sustained search growth, broader discoverability, and more efficient acquisition across organic channels.</p>
+             <p style={{ fontSize: '1.25rem', fontWeight: '800', color: '#111', maxWidth: '850px', margin: '0 auto', lineHeight: '1.6' }}>By transitioning the team from one-off content wins to a scalable SEO operation, I built a foundation for sustained growth. This strategic shift not only delivered a massive <strong>+195% lift in organic sessions</strong> and <strong>285M impressions</strong>in just 12 months, but also established a highly efficient, cost-effective acquisition channel for MaNaDr.</p>
         </div>
 
       </div>
