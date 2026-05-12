@@ -44,7 +44,7 @@ export default function MarketingAcademicServices() {
         <div className="bento-card span-3-cols">
             <h3 style={{ color: '#111' }}>The Challenge & My Role</h3>
             <p><strong>The Context:</strong> It required marketing support across both acquisition and student-facing operations, meaning not only promoting courses but also helping convert enquiries and supporting retention.</p>
-            <p><strong>My Ownership:</strong>Executed multi-channel marketing campaigns spanning digital content, paid media, and inbound sales operations. I acted as the bridge between marketing generation and student conversion, directly influencing the center's enrollment targets.</p>
+            <p><strong>My Ownership:</strong> Executed multi-channel marketing campaigns spanning digital content, paid media, and inbound sales operations. I acted as the bridge between marketing generation and student conversion, directly influencing the center's enrollment targets.</p>
         </div>
 
         {/* Execution & Results */}
