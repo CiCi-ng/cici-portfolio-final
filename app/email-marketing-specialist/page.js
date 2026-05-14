@@ -91,6 +91,10 @@ export default function EmailMarketingCaseStudy() {
     </li>
 
     <li>
+      <strong>Audience Data Fix:</strong> While auditing lifecycle performance, I discovered that many contacts syncing into our ESP were store or operational emails—not the actual product users making adoption or purchasing decisions. To solve this, I partnered with Product and Customer Success to redesign onboarding by adding an email confirmation step for product communications, and introduced a self-service email preference setting inside the app. This improved CRM data quality and made lifecycle messaging more relevant to real users.
+    </li>
+    
+    <li>
       <strong>Onboarding Optimization:</strong> Continuously A/B tested subject lines, copy, CTAs, and flow logic to maximize trial adoption.
     </li>
 
