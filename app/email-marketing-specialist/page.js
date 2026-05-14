@@ -147,7 +147,7 @@ export default function EmailMarketingCaseStudy() {
           <div style={{ padding: '30px', flex: 1, display: 'flex', flexDirection: 'column', background: '#15803d'}}>
             <div className="kpi-number" style={{ fontSize: '3rem', margin: 0, lineHeight: 1, color: '#111' }}>+78%</div>
             <h4 style={{ color: '#111', marginTop: '15px', marginBottom: '10px' }}>PAID CONVERSION</h4>
-            <p style={{ color: '#111', fontSize: '1rem', lineHeight: '1.6', fontWeight: '500' }}>Improved trial-to-paid conversion from <strong>9.1% to 16.2%</strong> after onboarding flow optimization.</p>
+            <p style={{ color: '#111', fontSize: '1rem', lineHeight: '1.6', fontWeight: '500' }}>Improved trial-to-paid conversion from <strong>9.1% to 16.2%</strong> in 3 months after onboarding flow optimization.</p>
           </div>
         </div>
 
