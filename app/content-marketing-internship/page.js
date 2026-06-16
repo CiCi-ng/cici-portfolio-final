@@ -37,7 +37,7 @@ export default function ContentInternship() {
         {/* ABOUT EXOTIC VOYAGES */}
         <div className="bento-card span-3-cols" style={{ alignItems: 'flex-start' }}>
           <h3 style={{ borderBottomColor: '#111', color: '#111', alignSelf: 'flex-start' }}>🛥️ ABOUT EXOTIC VOYAGES</h3>
-          <p style={{ fontWeight: '500', fontSize: '1.05rem', lineHeight: '1.6', marginBottom: '15px' }}>
+          <p style={{ fontWeight: '500', fontSize: '1.05rem', lineHeight: '1.6' }}>
             <strong>Exotic Voyages</strong> is a luxury tour operator specializing in extraordinary, customized travel to Asia. They focus on creating personal, intimate experiences, designing itineraries based on the traveler’s specific preferences rather than just on popular places.
           </p>
           <p style={{ fontWeight: '500', fontSize: '1.05rem', lineHeight: '1.6' }}>
@@ -182,7 +182,7 @@ export default function ContentInternship() {
       <div className="bento-card card-dark deco-lines-inside" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', padding: '50px 40px', flexWrap: 'wrap', gap: '20px' }}>
         <div style={{ maxWidth: '600px', zIndex: 1 }}>
           <h3 style={{ color: 'var(--accent-lime)', fontSize: '2.5rem', borderBottom: 'none', marginBottom: '10px', alignSelf: 'flex-start' }}>LET'S BUILD TOGETHER</h3>
-          <p style={{ fontSize: '1.1rem', color: 'white', fontWeight: '700' }}>Currently targeting roles in Lifecycle Marketing, CRM, and Growth. If you're looking for someone who bridges the gap between content and conversion, let's talk.</p>
+          <p style={{ fontSize: '1.1rem', color: 'white', fontWeight: '700' }}>Currently targeting roles in Digital Marketing, Lifecycle Marketing, CRM, and Growth. If you're looking for someone who bridges the gap between content and conversion, let's talk.</p>
         </div>
         <div style={{ zIndex: 1 }}>
           <Link href="/contact" className="nav-btn" style={{ background: 'white', width: '220px' }}>GET IN TOUCH</Link>

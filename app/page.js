@@ -207,7 +207,7 @@ export default function Home() {
       <div className="bento-card span-3-cols card-dark deco-lines-inside" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', padding: '50px 40px', marginTop: '40px', flexWrap: 'wrap', gap: '20px' }}>
         <div style={{ maxWidth: '600px', zIndex: 1 }}>
           <h3 style={{ color: 'var(--accent-lime)', fontSize: '2.5rem', borderBottom: 'none', marginBottom: '10px' }}>Let's Build Together</h3>
-          <p style={{ fontSize: '1.1rem' }}>Currently targeting roles in Lifecycle Marketing, CRM, and Growth. If you're looking for someone who bridges the gap between content and conversion, let's talk.</p>
+          <p style={{ fontSize: '1.1rem' }}>Currently targeting roles in Digital Marketing, Lifecycle Marketing, CRM, and Growth. If you're looking for someone who bridges the gap between content and conversion, let's talk.</p>
         </div>
         <div style={{ zIndex: 1 }}>
           <Link href="/contact" className="agency-btn" style={{ fontSize: '1.2rem', padding: '15px 30px', background: 'white' }}>GET IN TOUCH</Link>

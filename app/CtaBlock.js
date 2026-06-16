@@ -9,7 +9,7 @@ export default function CtaBlock() {
       <div style={{ textAlign: 'left', maxWidth: '600px' }}>
         <h3 style={{ color: 'var(--accent-lime)', fontSize: '2.5rem', margin: '0 0 10px 0', borderBottom: 'none' }}>Let's Build Together</h3>
         <p style={{ color: 'white', fontSize: '1.1rem', margin: '0', lineHeight: '1.6' }}>
-          Currently targeting roles in Lifecycle Marketing, CRM, and Growth. If you're looking for someone who bridges the gap between content and conversion, let's talk.
+          Currently targeting roles in Digital Marketing, Lifecycle Marketing, CRM, and Growth. If you're looking for someone who bridges the gap between content and conversion, let's talk.
         </p>
       </div>
       <div>
