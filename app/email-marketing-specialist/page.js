@@ -171,7 +171,7 @@ export default function EmailMarketingCaseStudy() {
           {/* 👇 ĐIỀN LINK ẢNH CỦA SẾP VÀO ĐÂY 👇 */}
           <img src="expansion.png" alt="Expansion Rate Dashboard" style={{ width: '100%', height: '250px', objectFit: 'contain', borderBottom: '3px solid #111', background: 'white' }} />
           <div style={{ padding: '30px', flex: 1, display: 'flex', flexDirection: 'column', background: '#a855f7'}}>
-            <div className="kpi-number" style={{ fontSize: '3rem', margin: 0, lineHeight: 1, color: 'white' }}>3.7%</div>
+            <div className="kpi-number" style={{ fontSize: '3rem', margin: 0, lineHeight: 1, color: 'white' }}>5.1%</div>
             <h4 style={{ color: 'var(--accent-lime)', marginTop: '15px', marginBottom: '10px' }}>EXPANSION (UPGRADE CONVERSION)</h4>
             <p style={{ color: 'white', fontSize: '1rem', lineHeight: '1.6', fontWeight: '500' }}>Helped capture immediate upsell opportunities from merchants exceeding their current plan limits via reliable transactional triggers.</p>
           </div>
