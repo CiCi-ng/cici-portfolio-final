@@ -3,21 +3,35 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <main>
-      {/* NAVBAR */}
-      <nav className="bento-nav">
-        <Link href="/" className="nav-btn">HOME</Link>
-        <div className="dropdown">
-          <button className="nav-btn">WORK EXPERIENCE ▼</button>
-          <div className="dropdown-content">
-            <Link href="/email-marketing-specialist">Email Marketing @ Clearer.io</Link>
-            <Link href="/seo-content-team-lead">SEO & Content Lead @ MaNaDr</Link>
-            <Link href="/content-marketing-specialist">Content Specialist @ Boost Commerce</Link>
-            <Link href="/marketing-academic-services">Marketing Services @ IBEST JSC</Link>
-            <Link href="/content-marketing-internship">Content Intern @ Exotic Voyages</Link>
-          </div>
-        </div>
-        <Link href="/contact" className="nav-btn">CONTACT</Link>
-      </nav>
+      {/* NAVBAR CHUẨN: TỰ ĐỘNG CHIA ĐỀU FLEXBOX & CÓ KHOẢNG THỞ PHÍA DƯỚI */}
+<nav className="bento-nav" style={{ marginBottom: '50px', width: '100%', display: 'flex', gap: '15px' }}>
+  
+  <Link href="/" className="nav-btn" style={{ background: 'var(--accent-lime)', flex: 1, textAlign: 'center', padding: '15px 10px' }}>
+    HOME
+  </Link>
+  
+  <div className="dropdown" style={{ flex: 1 }}>
+    <button className="nav-btn" style={{ width: '100%', textAlign: 'center', padding: '15px 10px', fontSize: '0.9rem' }}>
+      EXPERIENCE ▼
+    </button>
+    <div className="dropdown-content" style={{ minWidth: '260px' }}>
+      <Link href="/email-marketing-specialist">Email Marketing @ Clearer.io</Link>
+      <Link href="/seo-content-team-lead">SEO & Content Lead @ MaNaDr</Link>
+      <Link href="/content-marketing-specialist">Content Specialist @ Boost Commerce</Link>
+      <Link href="/marketing-academic-services">Marketing Services @ IBEST JSC</Link>
+      <Link href="/content-marketing-internship">Content Intern @ Exotic Voyages</Link>
+    </div>
+  </div>
+  
+  <Link href="/growth-ops" className="nav-btn" style={{ flex: 1, textAlign: 'center', padding: '15px 10px', fontSize: '0.9rem' }}>
+    SYSTEMS & OPS
+  </Link>
+  
+  <Link href="/contact" className="nav-btn" style={{ flex: 1, textAlign: 'center', padding: '15px 10px' }}>
+    CONTACT
+  </Link>
+
+</nav>
 
       {/* HEADER */}
       <header style={{ marginBottom: '50px' }}>

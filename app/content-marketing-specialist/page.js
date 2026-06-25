@@ -3,16 +3,16 @@ import Link from 'next/link';
 export default function ContentMarketingSpecialist() {
   return (
     <main>
-   {/* NAVBAR MỚI: DÀN HÀNG NGANG ĐỘC LẬP TỰ ĐỘNG KHÍT KHUNG */}
-<nav className="bento-nav" style={{ marginBottom: 0, width: '100%' }}>
+   {/* NAVBAR CHUẨN: TỰ ĐỘNG CHIA ĐỀU FLEXBOX & CÓ KHOẢNG THỞ PHÍA DƯỚI */}
+<nav className="bento-nav" style={{ marginBottom: '50px', width: '100%', display: 'flex', gap: '15px' }}>
   
-  <Link href="/" className="nav-btn" style={{ width: '238px' }}>
+  <Link href="/" className="nav-btn" style={{ background: 'var(--accent-lime)', flex: 1, textAlign: 'center', padding: '15px 10px' }}>
     HOME
   </Link>
   
-  <div className="dropdown" style={{ height: '56px', width: '238px' }}>
-    <button className="nav-btn" style={{ width: '100%' }}>
-      WORK EXPERIENCE ▼
+  <div className="dropdown" style={{ flex: 1 }}>
+    <button className="nav-btn" style={{ width: '100%', textAlign: 'center', padding: '15px 10px', fontSize: '0.9rem' }}>
+      EXPERIENCE ▼
     </button>
     <div className="dropdown-content" style={{ minWidth: '260px' }}>
       <Link href="/email-marketing-specialist">Email Marketing @ Clearer.io</Link>
@@ -23,11 +23,11 @@ export default function ContentMarketingSpecialist() {
     </div>
   </div>
   
-  <Link href="/growth-ops" className="nav-btn" style={{ background: 'var(--accent-lime)', width: '238px' }}>
+  <Link href="/growth-ops" className="nav-btn" style={{ flex: 1, textAlign: 'center', padding: '15px 10px', fontSize: '0.9rem' }}>
     SYSTEMS & OPS
   </Link>
   
-  <Link href="/contact" className="nav-btn" style={{ width: '238px' }}>
+  <Link href="/contact" className="nav-btn" style={{ flex: 1, textAlign: 'center', padding: '15px 10px' }}>
     CONTACT
   </Link>
 
