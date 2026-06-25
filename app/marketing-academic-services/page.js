@@ -3,21 +3,35 @@ import CtaBlock from '../CtaBlock';
 export default function MarketingAcademicServices() {
   return (
     <main>
-      {/* 👇 DÁN CỤC NAVBAR NÀY VÀO NGAY DƯỚI THẺ <main> 👇 */}
-      <nav className="bento-nav">
-        <Link href="/" className="nav-btn">HOME</Link>
-        <div className="dropdown">
-          <button className="nav-btn">WORK EXPERIENCE ▼</button>
-          <div className="dropdown-content">
-            <Link href="/email-marketing-specialist">Email Marketing @ Clearer.io</Link>
-            <Link href="/seo-content-team-lead">SEO & Content Lead @ MaNaDr</Link>
-            <Link href="/content-marketing-specialist">Content Specialist @ Boost Commerce</Link>
-            <Link href="/marketing-academic-services">Marketing Services @ IBEST JSC</Link>
-            <Link href="/content-marketing-internship">Content Intern @ Exotic Voyages</Link>
-          </div>
-        </div>
-        <Link href="/contact" className="nav-btn">CONTACT</Link>
-      </nav>
+      {/* NAVBAR MỚI: DÀN HÀNG NGANG ĐỘC LẬP TỰ ĐỘNG KHÍT KHUNG */}
+<nav className="bento-nav" style={{ marginBottom: 0, width: '100%' }}>
+  
+  <Link href="/" className="nav-btn" style={{ width: '238px' }}>
+    HOME
+  </Link>
+  
+  <div className="dropdown" style={{ height: '56px', width: '238px' }}>
+    <button className="nav-btn" style={{ width: '100%' }}>
+      WORK EXPERIENCE ▼
+    </button>
+    <div className="dropdown-content" style={{ minWidth: '260px' }}>
+      <Link href="/email-marketing-specialist">Email Marketing @ Clearer.io</Link>
+      <Link href="/seo-content-team-lead">SEO & Content Lead @ MaNaDr</Link>
+      <Link href="/content-marketing-specialist">Content Specialist @ Boost Commerce</Link>
+      <Link href="/marketing-academic-services">Marketing Services @ IBEST JSC</Link>
+      <Link href="/content-marketing-internship">Content Intern @ Exotic Voyages</Link>
+    </div>
+  </div>
+  
+  <Link href="/growth-ops" className="nav-btn" style={{ background: 'var(--accent-lime)', width: '238px' }}>
+    SYSTEMS & OPS
+  </Link>
+  
+  <Link href="/contact" className="nav-btn" style={{ width: '238px' }}>
+    CONTACT
+  </Link>
+
+</nav>
 
       {/* Header */}
       <div style={{ marginBottom: '60px' }}>
