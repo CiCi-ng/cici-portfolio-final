@@ -123,6 +123,25 @@ export default function EmailMarketingCaseStudy() {
   </ul>
 </div>
 
+{/* DEEP DIVE: BEHIND THE SCENES OF A WINNING FLOW */}
+<div className="bento-card span-3-cols card-dark" style={{ padding: '40px', marginTop: '20px' }}>
+  
+  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '15px' }}>
+    <h3 style={{ color: 'white', fontSize: '2rem', margin: 0, border: 'none' }}>🔍 DEEP DIVE: THE FULL LIFECYCLE MAP</h3>
+    
+    {/* Nút Figma đóng vai trò là "Bằng chứng" */}
+    <a 
+      href="https://www.figma.com/board/ksgWuytbPWl2ja0n5OgCIC/-Boost-Commerce--Email-Comms-Map?node-id=0-1&p=f&t=tdbYGLBdD43I6Jy1-0" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      style={{ fontSize: '0.9rem', color: '#111', background: 'var(--accent-lime)', padding: '10px 15px', textDecoration: 'none', fontWeight: '800', border: '2px solid #111', boxShadow: '3px 3px 0px #111' }}
+    >
+      VIEW FULL MASTER MAP IN FIGMA ↗
+    </a>
+  </div>
+
+</div>
+
       {/* MEASUREMENT & RESULTS */}
       <div style={{ gridColumn: '1 / -1', width: '100%', margin: '2rem 0' }}>
   <div style={{ display: 'flex', flexWrap: 'wrap', gap: '2rem', alignItems: 'flex-start' }}>
